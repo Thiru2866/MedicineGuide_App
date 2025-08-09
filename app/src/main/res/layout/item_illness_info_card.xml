@@ -1,0 +1,96 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="8dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Illness Name -->
+        <TextView
+            android:id="@+id/tvIllnessName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🩺 Fever"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Adult Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👤 Adult"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/tvMedicineAdult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💊 Paracetamol 500mg"
+            android:textSize="15sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvUsageAdult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🕒 1 tablet every 6 hours"
+            android:textSize="15sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvSideEffectsAdult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Nausea, Headache"
+            android:textSize="15sp"
+            android:textColor="#555555" />
+
+        <!-- Child Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧒 Child"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/tvMedicineChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💊 Crocin Syrup"
+            android:textSize="15sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvUsageChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🕒 5ml every 6 hours"
+            android:textSize="15sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tvSideEffectsChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Drowsiness"
+            android:textSize="15sp"
+            android:textColor="#555555" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
